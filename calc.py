@@ -6,38 +6,38 @@ print("\_/  \|/_/     \____/\_/ \|\____/\____/\____/\____/\_/ \|  \_/  \____/\_/
 
 
 while True :
-    print("Please enter the funtction + - * / :")
+    print("Please enter the function + - * / :")
     a=input()
     if a=='+':
-        print ("please enter first number:")
+        print ("Please enter first number:")
         a=int(input())
-        print ("please enter secend number:") 
+        print ("Please enter second number:") 
         b=int(input())
-        print ("the resulte is = ", a+b)
+        print ("the result is = ", a+b)
 
     if a=='-':
-        print ("please enter first number:")
+        print ("Please enter first number:")
         a=int(input())
-        print ("please enter secend number:")
+        print ("Please enter second number:")
         b=int(input())
-        print ("the resulte is = ", a-b)
+        print ("the result is = ", a-b)
 
     if a=='*':
-        print ("please enter first number:")
+        print ("Please enter first number:")
         a=int(input())
-        print ("please enter secend number:") 
+        print ("Please enter second number:") 
         b=int(input())
-        print ("the resulte is = ", a*b)
+        print ("the result is = ", a*b)
 
     if a=='/':
-        print ("please enter first number:")
+        print ("Please enter first number:")
         a=int(input())
-        print ("please enter secend number:") 
+        print ("Please enter second number:") 
         b=int(input())
         if  b==0 :
-            print("the value is not corect")
+            print("the value is not correct")
             continue
-            print ("the resulte is = ", a/b)
+            print ("the result is = ", a/b)
     print ("Do you want to continue : y/n ")
     c=input()
     if c=="n":
